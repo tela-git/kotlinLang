@@ -1,3 +1,5 @@
 Concepts in kotlin: 
-   1. Class: 
-        A class in kotlin is like basic structure which we use to build various objects.
+   1. Coroutines
+
+      launch { } : launches a new coroutine without blocking the current thread. Inherits thread and scope of the immediate parent coroutine.
+                   Returns an object of type Job. 
